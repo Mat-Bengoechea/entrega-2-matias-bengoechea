@@ -29,7 +29,7 @@ body {
 }
 
 
-
+.fuenteRadioCanadabig{font-family:"radiocanadabig"} 
 
 
 header{
@@ -64,8 +64,6 @@ header{
 
 .menu a{
     color: #E8E8E8;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -116,8 +114,6 @@ footer{
 
 .menu-footer a{
     color: #BEBEBE;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -149,8 +145,6 @@ footer{
 }
 
 .h1-index{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-weight: bold;
     font-size: 47px;
     margin-left: 1.875rem;
@@ -170,8 +164,6 @@ footer{
 
 
 .h2-index{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-size: 24px;
     margin-left: 1.875rem;
     margin-top: .625rem;
@@ -184,8 +176,6 @@ footer{
 }
 
 .negrita-h2{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
 font-weight: 700;
 text-transform: uppercase;
 }
@@ -210,8 +200,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     font-weight: bold;
     margin-left: 100px;
     margin-top: 50px;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 3px;
 }
 
@@ -240,8 +228,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
         border-radius: 50px;
         cursor: pointer;
-        font-family:"radiocanadabig" ;
-        src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
         font-size: 50px;
         color:#E8E8E8;
         font-weight: bold;
@@ -259,8 +245,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 
 .descripcion{
     grid-area: descripcion;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-size: 19.7px;
     color: #E8E8E8;
     font-weight: 400;
@@ -287,8 +271,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h2-personaliza{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     color: #202020;
     font-size: 60px;
     font-weight: bold;
@@ -304,8 +286,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .p-personaliza{
-    font-family:"radiocanada" ;
-    src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
     color: #202020;
     font-size: 20px;
     font-weight: 100;
@@ -370,8 +350,6 @@ span.line-break {
 
 
 .h2-info-perfil{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     color: #E8E8E8;
     font-weight: bold;
     font-size: 22px;
@@ -390,8 +368,6 @@ span.line-break {
 }
 
 .p-gestiona{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     color: #E8E8E8;
     font-weight: 400;
     font-size: 20px;
@@ -421,8 +397,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     font-weight: bold;
     margin-left: 100px;
     margin-top: 70px;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 3px;
     display: flex;
     align-items: center;
@@ -464,8 +438,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h2-objetivo-finan{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     color: #E8E8E8;
     text-align: center;
     text-transform: uppercase;
@@ -484,8 +456,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     font-weight: bold;
     margin-left: 30px;
     margin-top: 70px;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 3px;
     display: flex;
     align-items: center;
@@ -527,8 +497,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h2-herramientas-inter{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     color: #E8E8E8;
     text-align: center;
     text-transform: uppercase;
@@ -547,8 +515,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     font-weight: bold;
     margin-left: 30px;
     margin-top: 70px;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 3px;
     display: flex;
     align-items: center;
@@ -590,8 +556,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h2-soporte-asist{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     color: #E8E8E8;
     text-align: center;
     text-transform: uppercase;
@@ -610,8 +574,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     font-weight: bold;
     margin-left: 30px;
     margin-top: 70px;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 3px;
     display: flex;
     align-items: center;
@@ -633,8 +595,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h2-index2{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 9px;
     font-size: 60px;
     font-weight: bold;
@@ -688,8 +648,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     font-size: 36px;
     color:#E8E8E8;
     font-weight: bold;
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     letter-spacing: 9px;
     display: flex;
     justify-content: center;
@@ -706,8 +664,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h1-educacionfinanciera{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-weight: bold;
     font-size: 50px;
     margin-left: 1.875rem;
@@ -726,8 +682,6 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
 }
 
 .h2-educacionfinanciera{
-    font-family:"radiocanadabig" ;
-    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
     font-size: 18px;
     margin-left: 6.25rem;
     margin-top: .625rem;
@@ -755,7 +709,7 @@ background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%)
     margin-top: 750px;
 }
 
-@media(max-width:1024px){
+@media(max-width:768px){
     header{
         padding-right: 25px;
     }
