@@ -1213,3 +1213,427 @@ footer{
     width: 200px;
 }
 }
+
+@media(max-width:1024px){
+    header{
+        padding-right: 25px;
+    }
+    
+    .logo img{
+        height: 20px;
+        margin: 25px;
+    }
+
+.menu{
+    margin-right: 25px;
+    margin: 0 5px;
+    margin-left: 350px;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu a{
+    font-size: 12px;
+}
+
+.bonton{
+    width: 145px;
+    height: 35px;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+.imagen-indexarriba{
+    height: 950px;
+    padding-top: 50px;
+}
+
+.h1-index{
+    font-size: 32px;
+    margin-left: 1.5625rem;
+    margin-top: -850px;
+    letter-spacing: 6px;
+}
+
+.h2-index{
+    font-size: 18px;
+    margin-left: 1.5625rem;
+    margin-top: 5px;
+}
+
+.medium-h2{
+    margin-left: 1.125rem;
+}
+
+.retangulo{
+height: 3px;
+margin-left: 20px;
+width: 375px;
+}
+
+.unete-ahora{
+    width: 270px;
+    height: 65px;
+    font-size: 24px;
+    margin-left: 75px;
+    margin-top: 45px;
+    letter-spacing: 2.5px;
+}
+
+.icon-flecha-circular{
+    margin-left: 220px;
+    margin-top: 55px;
+}
+
+.icon-flecha-circular img{
+    height: 140px;
+}
+
+.contador-general{
+    display: grid;
+    grid-template-columns: 12.5rem 12.5rem 12.5rem;
+    grid-template-rows: 6.25rem 6.25rem;
+    margin-left:25px;
+    margin-top: 70px;
+}
+
+.contador{
+    width: 152px;
+    height: 154px;
+        font-size: 45px;
+        margin-top: 15px;
+}
+
+.imagenes img{
+    width: 300px;
+    margin-left: -65px;
+    margin-top: 10px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.descripcion p{
+    margin-left: -70px;
+}
+
+.num-40{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.neurona{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.contenedor-personaliza{
+    height: 480px;
+    margin-top: 150px;
+}
+
+.h2-personaliza{
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.text-inferior{
+    font-size: 26px;
+}
+
+.p-personaliza{
+    font-size: 15px;
+    margin-top: -220px;
+}
+
+span.line-break {
+    margin-bottom: 5px;
+} 
+
+.control-futuro{
+    font-size: 20px;
+}
+
+.you{
+    font-size: 20px;
+}
+
+.financ{
+    font-size: 20px;
+}
+
+.contenido-usuario-principal{
+    grid-template-columns: 267px 200px 200px 200px;
+    margin-top: -130px;
+    grid-gap: 20px;
+}
+
+.conten-info-person{
+    width: 267px;
+    height: 350px;
+    border-radius: 35px;
+}
+
+.icon-personal{
+    width: 58px;
+    height: 58px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.icon-personal img{
+    width: 38px;
+    height: 38px;
+}
+
+.h2-info-perfil{
+    font-size: 14px;
+    margin-left: 95px;
+    margin-top: -55px;
+}
+
+.p-gestiona{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.lista-clasificacion{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.empezar{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.empezar .textbutton{
+    margin-left: 20px
+}
+
+.empezar .iconbutton{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.empezar img{
+    width: 24px;
+    height: 24px;
+}
+
+.conten-objetivo{
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.icon-objetivo img{
+    width: 38px;
+    height: 38px;
+}
+
+.icon-objetivo{
+    width: 58px;
+    height: 58px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.h2-objetivo-finan{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.empezar2{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.empezar2 .textbutton2{
+    margin-left: 20px
+}
+
+.empezar2 .iconbutton2{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.empezar2 img{
+    width: 24px;
+    height: 24px;
+}
+
+.conten-herramienta{
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.icon-herramienta img{
+    width: 38px;
+    height: 38px;
+}
+
+.icon-herramienta{
+    width: 58px;
+    height: 58px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.h2-herramientas-inter{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.empezar3{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.empezar3 .textbutton3{
+    margin-left: 20px
+}
+
+.empezar3 .iconbutton3{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.empezar3 img{
+    width: 24px;
+    height: 24px;
+}
+
+.conten-soporte{
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.icon-soporte img{
+    width: 38px;
+    height: 38px;
+}
+
+.icon-soporte{
+    width: 58px;
+    height: 58px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.h2-soporte-asist{
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.empezar4{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.empezar4 .textbutton4{
+    margin-left: 20px
+}
+
+.empezar4 .iconbutton4{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.empezar4 img{
+    width: 24px;
+    height: 24px;
+}
+
+.h2-index2{
+    letter-spacing: 6px;
+    font-size: 45px;
+    margin-top: 140px;
+}
+
+.h3-index2{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.p-index2{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.image-index2{
+    margin-top: 40px;
+}
+
+.image-index2 img{
+    width: 930px;
+}
+
+.buttom-index2{
+    width: 255px;
+    height: 70px;
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-left: 384px;
+    margin-top: -30px;
+}
+
+footer{
+    padding-right: 30px;
+    border-radius:100px 100px 0px 0px;
+    width: 950px;
+    height: 200px;
+    margin-left: 37px;
+    margin-top: 200px;
+}
+
+.menu-footer ul{
+    padding: 0;
+    margin-right: 30px;
+    margin: 0 10px;
+    margin-left: 40px;
+}
+
+.menu-footer li{
+    margin-right: 15px;
+}
+
+.menu-footer a{
+    font-size: 12px;
+}
+
+.logo-footer{
+    margin-left: 10px;
+}
+
+.redes-sociales li{
+    margin-right: 20px;
+}
+
+.copy-mat img{
+    width: 250px;
+}
+}
