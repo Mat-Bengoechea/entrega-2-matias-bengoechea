@@ -69,6 +69,15 @@ header{
     text-decoration: none;
 }
 
+.menu a:hover{
+    background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .bonton{
     width: 150px;
     height: 40px;
@@ -79,6 +88,12 @@ header{
     color: #202020;
     font-weight: bold;
     margin-left: 40px;
+}
+
+.bonton:active{
+    background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+    color: #E8E8E8;
 }
 
 footer{
@@ -117,6 +132,11 @@ footer{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.menu-footer a:hover{
+    color: #202020;
+    text-decoration: underline;
 }
 
 .logo-footer{
