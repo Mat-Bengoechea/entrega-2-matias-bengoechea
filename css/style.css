@@ -845,87 +845,94 @@ width: 270px;
 
 .contador-general{
     display: grid;
-    grid-template-columns: 12.5rem 12.5rem 12.5rem;
-    grid-template-rows: 6.25rem 6.25rem;
-    margin-left:25px;
-    margin-top: 70px;
+    grid-template-columns: 8.75rem 8.75rem 8.75rem;
+    grid-template-rows: 3.75rem 3.75rem;
+    margin-left: 10px;
+    margin-top: 35px;
 }
 
 .contador{
-    width: 152px;
-    height: 154px;
-        font-size: 45px;
-        margin-top: 15px;
+    width: 100px;
+    height: 105px;
+    border-radius: 25%;
+    font-size: 35px;
+    margin-top: 7px;
 }
 
 .imagenes img{
-    width: 300px;
-    margin-left: -65px;
-    margin-top: 10px;
+    width: 225px;
+    margin-left: -55px;
 }
 
 .descripcion{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .descripcion p{
-    margin-left: -70px;
+    margin-left: -55px;
 }
 
 .num-40{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
     text-decoration: underline;
 }
 
 .neurona{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
     text-decoration: underline;
 }
 
 .contenedor-personaliza{
-    height: 480px;
-    margin-top: 150px;
+    height: 800px;
+    margin-top: 120px;
 }
 
 .h2-personaliza{
-    font-size: 40px;
+    font-size: 25px;
     padding-top: 70px;
 }
 
 .text-inferior{
-    font-size: 26px;
+    font-size: 16px;
 }
 
 .p-personaliza{
-    font-size: 15px;
-    margin-top: -220px;
+    font-size: 12px;
+    margin-top: -140px;
 }
 
 span.line-break {
-    margin-bottom: 5px;
+    margin-bottom: 2.5px;
 } 
 
 .control-futuro{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .you{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .financ{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .contenido-usuario-principal{
-    grid-template-columns: 267px 200px 200px 200px;
-    margin-top: -130px;
-    grid-gap: 20px;
+    grid-template-columns: 267px 200px 200px;
+    grid-template-rows: 350px 350px;
+    margin-top: -550px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+    "conten-info-person conten-objetivo conten-herramienta"
+    "conten-info-person conten-soporte conten-herramienta"
+    ;
 }
 
 .conten-info-person{
+    grid-area: conten-info-person;
     width: 267px;
     height: 350px;
     border-radius: 35px;
@@ -983,6 +990,7 @@ span.line-break {
 }
 
 .conten-objetivo{
+    grid-area: conten-objetivo;
     width: 200px;
     height: 300px;
     border-radius: 40px;
@@ -1029,6 +1037,7 @@ span.line-break {
 }
 
 .conten-herramienta{
+    grid-area: conten-herramienta;
     width: 200px;
     height: 300px;
     border-radius: 40px;
@@ -1075,6 +1084,7 @@ span.line-break {
 }
 
 .conten-soporte{
+    grid-area: conten-soporte;
     width: 200px;
     height: 300px;
     border-radius: 40px;
@@ -1122,51 +1132,53 @@ span.line-break {
 
 .h2-index2{
     letter-spacing: 6px;
-    font-size: 45px;
-    margin-top: 140px;
+    font-size: 35px;
+    margin-top: 70px;
 }
 
 .h3-index2{
     font-size: 12px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .p-index2{
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
+    width: 530px;
+    margin-left: 120px;
 }
 
 .image-index2{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .image-index2 img{
-    width: 930px;
+    width: 680px;
 }
 
 .buttom-index2{
-    width: 255px;
-    height: 70px;
-    font-size: 26px;
-    letter-spacing: 6px;
-    margin-left: 384px;
-    margin-top: -30px;
+    width: 185px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 291px;
+    margin-top: -21px;
 }
 
 footer{
     padding-right: 30px;
-    border-radius:100px 100px 0px 0px;
-    width: 950px;
-    height: 200px;
+    border-radius:70px 70px 0px 0px;
+    width: 680px;
+    height: 140px;
     margin-left: 37px;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .menu-footer ul{
     padding: 0;
-    margin-right: 30px;
+    margin-right: 15px;
     margin: 0 10px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .menu-footer li{
@@ -1178,14 +1190,26 @@ footer{
 }
 
 .logo-footer{
-    margin-left: 10px;
+    margin-left: -20px;
+}
+
+.logo-footer img{
+    height: 50px;
+}
+
+.redes-sociales{
+    margin-left: -40px;
 }
 
 .redes-sociales li{
-    margin-right: 20px;
+    margin-right: 15px;
+}
+
+.redes-sociales img{
+    width: 25px;
 }
 
 .copy-mat img{
-    width: 250px;
+    width: 200px;
 }
 }
