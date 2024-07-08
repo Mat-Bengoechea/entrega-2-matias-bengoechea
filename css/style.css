@@ -96,6 +96,10 @@ header{
     color: #E8E8E8;
 }
 
+.nav-menu-hamburgueza{
+    display: none;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -409,6 +413,8 @@ span.line-break {
     font-weight: 100;
     font-size: 18px;
     margin-top: 50px;
+    width: 300px;
+    margin-left: 45px;
 }
 
 .empezar{
@@ -957,6 +963,8 @@ span.line-break {
 .lista-clasificacion{
     font-size: 14px;
     margin-top: 20px;
+    width: 200px;
+    margin-left: 35px;
 }
 
 .empezar{
@@ -1190,7 +1198,6 @@ footer{
 }
 }
 
-
 @media(max-width:768px){
     header{
         padding-right: 15px;
@@ -1287,7 +1294,7 @@ width: 270px;
 .imagenes img{
     width: 225px;
     margin-left: -55px;
-    margin-top: -2px;
+    margin-top: -px;
 }
 
 .descripcion{
@@ -1390,6 +1397,8 @@ span.line-break {
 .lista-clasificacion{
     font-size: 14px;
     margin-top: 20px;
+    width: 200px;
+    margin-left: 35px;
 }
 
 .empezar{
@@ -1638,4 +1647,65 @@ footer{
 .copy-mat img{
     width: 200px;
 }
+}
+
+@media(max-width:320px){
+    .menu{
+        display: none;
+    }
+    .bonton{
+        display: none;
+    }
+    .nav-menu-hamburgueza {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_hamburguesa{
+        display: none;
+    }
+    .menu_hamburguesa:checked + .menu-links{
+        height: 200px;
+    }
+    .menu-links li{
+        list-style: none;
+    }
+    .menu-links a{
+        text-decoration: none;
+    font-weight: bold;
+    color: #202020;
+    margin-left: 15px;
+    }
+    .menu-links a:hover{
+        background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .labe_hamburguesa {
+        cursor: pointer;
+    }
+    .labe_hamburguesa img{
+        height: 30px;
+    }
+    .menu-links{
+        list-style: none;
+        width: 200px;
+        border-radius: 25px;
+        background-color: #E8E8E8;
+        position: absolute;
+        margin-top: 270px;
+        right: 10px;
+        height: 0;
+        overflow: hidden;
+        /* height: calc(100vh - var(--altura_header)); */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+        transition: all .3s;
+    }
 }
