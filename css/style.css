@@ -1708,4 +1708,21 @@ footer{
         gap: 25px;
         transition: all .3s;
     }
+    .bonton-hamburguesa{
+        width: 150px;
+        height: 40px;
+        background-color: #202020;
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #E8E8E8;
+        font-weight: bold;
+        margin-left: 25px;
+    }
+    .bonton-hamburguesa:active{
+        background: rgb(0,255,218);
+        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+        color: #E8E8E8;
+    }
+    
 }
