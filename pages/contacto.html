@@ -13,14 +13,14 @@
             <img src="../assets/logo/logoacolor-youfinanc-horizontal.svg" alt="logo YOUfinanc">
         </a>
     <nav>
-        <ul class="menu">
+        <ul class="menu fuenteRadioCanadabig">
             <li><a href="./educacionfinanciera.html">Educación Financiera</a>
                 <img src="../assets/elements/icon-menu.svg" alt="icon-menu"></li>
             <li><a href="./nosotros.html">Nosotros</a>
                 <img src="../assets/elements/icon-menu.svg" alt="icon-menu"></li>
             <li><a href="#">Contacto</a>
                 <img src="../assets/elements/icon-menu.svg" alt="icon-menu"></li>
-            <button class="bonton">Iniciar Sesión</button>    
+            <button class="bonton fuenteRadioCanadabig">Iniciar Sesión</button>    
         </ul>
     </nav>
     </header>
@@ -31,66 +31,76 @@
         </div>
     </section>
     <section>
-        <div class="h1-contacto">
+        <div class="h1-contacto fuenteRadioCanadabig">
             <h1>Contáctanos</h1>
         </div>
         <div class="h2-contacto">
-            <h2>Estamos Aquí para </h2><h2>
-                Ayudarte.</h2>
+            <p>Estamos Aquí para </p><p>
+                Ayudarte.</p>
         </div>
         <div class="p-contacto">
-            <p>Si tienes alguna pregunta, comentario o sugerencia, no</p><p>dudes en ponerte en contacto con nosotros. Estamos</p><p>aquí para ayudarte y queremos escuchar tus opiniones.</p>
+            <p>Si tienes alguna pregunta, comentario o sugerencia, no</p><p>dudes en ponerte en <span class="contacto-nosotros fuenteRadioCanadabig">contacto con nosotros.</span> Estamos</p><p>aquí para ayudarte y queremos escuchar tus opiniones.</p>
         </div>
     </section>
-    <section>
-        <div class="h2-contacto">
+    <section class="contenedor-formulario">
+        <div class="h2-contacto-envianos fuenteRadioCanadabig">
             <h2>Envíanos un </h2><h2> 
                 Mensaje</h2>
         </div>
         <div class="p-contacto2">
             <p>Completa el siguiente formulario y nos </p><p>
-                pondremos en contacto contigo lo antes </p><p>
+                pondremos en <span class="contacto-contigo">contacto contigo</span> lo antes </p><p>
                 posible.</p>
         </div>
+        <div class="formulario">
+            <form>
+                <div class="input-form">
+                    <label for="iname">nombre y apellido</label>
+                    <input id="iname" type="text" name="nombre y apellido">    
+                </div>
+                <div class="input-form2">
+                    <label for="iemail">correo electronico</label>
+                    <input type="email" name="email" id="iemail">
+                </div>
+                <div class="input-form3">
+                    <label for="imensaje">mensaje</label>
+                    <input id="imensaje" type="text" name="Mensaje">
+                </div>
+            </form>
+            </div>
+            <div class="botton-formulario">
+            <form>
+                <input class="bonton-input" type="submit" value="ENVIAR">
+            </form>
+            </div>
     </section>
-    <section>
-        <!--Aqui iria un formulario que llevaria este contenido:-->
-        <div class="nombre-apellido">
-            <p>nombre y apellido</p>
-        </div>
-        <div class="correo-electronico">
-            <p>correo electronico</p>
-        </div>
-        <div class="mensaje">
-            <p>mensaje</p>
-        </div>
-        <div class="button">
-            <button>ENVIAR</button>
-        </div>
-    </section>
-    <section>
-        <div class="h2-contacto2">
-            <h2>Contáctanos </h2><h2> 
+    <section class="sector-contactanos">
+        <div class="h2-contacto2 fuenteRadioCanadabig">
+            <h2>Contáctanos </h2><h2 class="Directamente"> 
                 Directamente</h2>
         </div>
-        <div class="icon-correo-electronico">
-            <img src="../assets/elements/icon-correo-electronico.svg" alt="correo electronico">
-        </div>
-        <div class="h2-card1contacto">
-            <h2>CORREO </h2><h2>  ELECTRÓNICO</h2>
-        </div>
-        <div class="info-card1contacto">
-            <p>contacto@youfinanc.com</p>
-        </div>
-        <div class="icon-telefono">
-            <img src="../assets/elements/icon-telefono.svg" alt="telefono">
-        </div>
-        <div class="h1-card2contacto">
-            <h2>Teléfono</h2>
-        </div>
-        <div class="info-card2contacto">
-            <p>+123 456 7890</p>
-        </div>
+        <article class="correo-electronico-contenedor">
+            <div class="icon-correo-electronico">
+                <img src="../assets/elements/icon-correo-electronico.svg" alt="correo electronico">
+            </div>
+            <div class="h2-card1contacto fuenteRadioCanadabig">
+                <h2>CORREO </h2><h2 class="electronico-card1">  ELECTRÓNICO</h2>
+            </div>
+            <div class="info-card1contacto">
+                <p>contacto@youfinanc.com</p>
+            </div>
+        </article>
+        <article class="telefono-contenedor">
+            <div class="icon-telefono">
+                <img src="../assets/elements/icon-telefono.svg" alt="telefono">
+            </div>
+            <div class="h1-card2contacto fuenteRadioCanadabig">
+                <h2>Teléfono</h2>
+            </div>
+            <div class="info-card2contacto">
+                <p>+123 456 7890</p>
+            </div>
+        </article>
     </section>
 </main>
 <footer>
