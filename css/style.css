@@ -885,6 +885,10 @@ margin-top: -70px;
 margin-left: 70px;
 }
 
+.p-contacto2-mobile{
+    display: none;
+}
+
 .contacto-contigo{
     font-weight: bold;
 }
@@ -2866,5 +2870,218 @@ footer{
 .copy-mat img{
     width: 200px;
     margin-left: 25px;
+}
+
+.imag-contacto{
+    margin-top: 50px;
+}
+
+.imag-contacto img{
+    width: 230px;
+}
+
+.h1-contacto{
+    font-size:16px;
+    letter-spacing: 6px;
+    margin-top: -90px;
+}
+
+.h2-contacto{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.p-contacto{
+    margin-top: 100px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.contacto-nosotros{
+    font-size: 18px;
+}
+
+.contenedor-formulario{
+    width: 320px;
+    height: 920px;
+    border-radius: 70px 70px 0px 0px;
+    margin-top: 200px;
+    grid-template-columns: 320px;
+    grid-template-rows: 18.75rem 18.75rem 18.75rem;
+    grid-column-gap: 0px;
+    grid-template-areas: 
+    "titulo"
+    "formulario"
+    "boton-formulario"
+    ;
+}
+
+.h2-contacto-envianos{
+font-size: 25px;
+grid-area: titulo;
+margin-top: 40px;
+margin-left: -10px;
+text-align: center;
+}
+
+.p-contacto2{
+display: none;
+}
+
+.p-contacto2-mobile{
+grid-area: titulo;
+font-family:"radiocanada" ;
+src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+color: #202020;
+font-size: 18px;
+font-weight: 300;
+margin-top: 170px;
+margin-left: 10px;
+text-align: center;
+width: 290px;
+display: block;
+}
+
+.formulario{
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.input-form input{
+    margin-top: 50px;
+    margin-left: -220px;
+    border-radius: 100px;
+    height: 45px;
+    width: 290px;
+}
+
+
+.input-form2{
+    margin-top: 80px;
+}
+
+.input-form2 input{
+    margin-top: 50px;
+    margin-left: -225px;
+    border-radius: 100px;
+    height: 45px;
+    width: 290px;
+}
+
+.input-form3{
+    margin-top: 80px;
+}
+
+.input-form3 input{
+    margin-top: 50px;
+    margin-left: -183px;
+    border-radius: 50px;
+    height: 165px;
+    width: 300px;
+}
+
+.botton-formulario{
+    grid-area: boton-formulario;
+}
+
+.bonton-input{
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 24px;
+    margin-left: 165px;
+    letter-spacing: 3px;
+    margin-top: 225px;
+    margin-left: 60px;
+}
+
+.sector-contactanos{
+    grid-template-columns: 320px;
+    grid-template-rows: 300px 300px 300px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+    grid-template-areas: 
+    "h1"
+    "card1"
+    "card2"
+    ;
+}
+
+.h2-contacto2{
+    font-size: 22px;
+    margin-top: 110px;
+}
+
+.Directamente{
+    background: rgb(0,255,218);
+    background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.correo-electronico-contenedor{
+    border-radius: 50px;
+    width: 237px;
+    height: 226px;
+    margin-left: 40px;
+    margin-top: 37px;
+}
+
+.icon-correo-electronico{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.icon-correo-electronico img{
+    height: 65px;
+}
+
+.h2-card1contacto{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.info-card1contacto{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.telefono-contenedor{
+    border-radius: 50px;
+    width: 237px;
+    height: 226px;
+    margin-left: 40px;
+    margin-top: 37px;
+}
+
+.icon-telefono{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.icon-telefono img{
+    height: 65px;
+}
+
+.h1-card2contacto{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.info-card2contacto{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 50px;
 }
 }
