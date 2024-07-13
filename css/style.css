@@ -5008,3 +5008,50 @@ display: block;
     margin-top: 50px;
 }
 }
+
+/*BOOTSTRAP*/
+
+.menu-ini{
+    font-family:"radiocanadabig" ;
+    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+color: #E8E8E8;
+font-size: 16px;
+font-weight: bold;
+}
+
+.botton-ini{
+    font-family:"radiocanadabig" ;
+    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+color: #E8E8E8;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.hi-boos{
+    font-family:"radiocanadabig" ;
+    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+text-transform: uppercase;
+font-size: 70px;
+text-align: center;
+}
+
+.p-boos{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-bootrsap {
+    font-family:"radiocanadabig" ;
+    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.boton-boss{
+    font-family:"radiocanadabig" ;
+    src: url(../assets/fonts/RadioCanadaBig-VariableFont_wght.ttf);
+font-size: 24px;
+}
+
