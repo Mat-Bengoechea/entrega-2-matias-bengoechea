@@ -2250,7 +2250,7 @@ margin-top: 44px;
 .menu{
     margin-right: 25px;
     margin: 0 5px;
-    margin-left: 350px;
+    margin-left: 300px;
 }
 
 .menu li{
@@ -2258,13 +2258,13 @@ margin-top: 44px;
 }
 
 .menu a{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .bonton{
     width: 145px;
     height: 35px;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 25px;
 }
 
@@ -2941,7 +2941,7 @@ width: 270px;
 .imagenes img{
     width: 225px;
     margin-left: -55px;
-    margin-top: -px;
+    margin-top: -5px;
 }
 
 .descripcion{
@@ -3253,7 +3253,7 @@ footer{
     border-radius:70px 70px 0px 0px;
     width: 680px;
     height: 140px;
-    margin-left: 37px;
+    margin-left: 45px;
     margin-top: 140px;
 }
 
